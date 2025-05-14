@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+    --color-hmoBlue:#1E80C1;
+    --color-hmoLightBlue:#A5DEF2;
+    --color-hmoPurple:#414C6B;
+    --color-hmoLightPurple:#C0A9BC;
+    --color-hmoGreen:#5BAEB7;
+    --color-hmoLightGreen:#2ECBE9;
+    
+}
+
+.react-calendar{
+    width:100% !important;
+    border: none;
+    font-family: "Inter";
+}
+.react-calendar__tile--active{
+    background-color: #A5DEF2;
+    color:black;
+}
+.react-calendar__navigation__label__labelText{
+    font-weight: 600;
+}
